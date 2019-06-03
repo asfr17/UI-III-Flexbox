@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav {
+	padding: 20px;
+	margin-left: 50px;
+	color: grey;
+	margin: 20px;
+	word-spacing: 60px;
+}
+.tag .tagline-text {
+	display: inline-block;
+	padding: 10px 70px;
+	font-size: 80px;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 120px;
+	font-family: 'Bangers', cursive;
+}
+.tag .tagline-text button {
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+	background-color: white;
+	margin-top: 5px;
+	padding: 8px 45px;
+	border: 1px solid black;
+	vertical-align: top;
+}
+.header-image {
+	display: inline-block;
+	margin-top: 70px;
+}
+.page {
+	display: flex;
+	padding-top: 40px;
+	margin-top: 75px;
+	margin-right: 300px;
+	margin-left: 20px;
+}
+.page .top-section {
+	display: flex;
+	padding: 0 20px;
+}
+.page .box {
+	height: 200px;
+	padding: 20px;
+}
+.page .middle-img {
+	margin-top: 45px;
+	margin-left: 30px;
+}
+.page .bottom-section {
+	margin-top: 40px;
+	padding: 0 20px;
+}
+.page .bottom-section .box {
+	display: flex;
+	padding: 0 20px;
+}
+footer {
+	font-size: 15px;
+	text-align: center;
+	margin: 30px 0;
+}
+div {
+	display: inline-block;
+	padding: 10px;
+	margin-right: 100px;
+}
+
+article {
+	padding: 40px 10px 0;
+	border-top: 1px solid black;
+	margin-top: 60px;
+	margin-left: 40px;
+	margin-right: 300px;
+}
+
+article p {
+	margin: 20px 0;
+}
+
+.parent-container {
+	border-top: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	height: 700px;
+
+}
+.container1 {
+	display: flex;
+}
+.container2 {
+	display: flex;
+}
+.container3 {
+	display: flex;
+}
+.parent-container .item {
+	height: 200px;
+	padding: 20px;
+	border: 1px solid black;
+	background: rgb(240, 236, 236);
+}
+
+button {
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid black;
+    border-radius: .5em;
+    background: white;
+    margin-top: 20px;
+}
+
+.container4 {
+	display: flex;
+}
+
+.services-header-img {
+	margin-left: 30px;
+}
+
+.containerx {
+	display: flex;
+	padding: 20px;
+}
+.servicetitle {
+	display: flex;
+	padding: 10px;
+	border-top: 1px solid black;
+}
+
+ol {
+	list-style-type: square;
+	padding: 10px;
+}
